@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: docs/images/logo_400x400.png
+heroImage: ./images/logo_400x400.png
 actions:
   - text: Get Started
     link: /rust_p/
