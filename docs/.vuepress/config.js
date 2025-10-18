@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   title: 'X-Lang',
   description: 'X-Lang: Code Smarter, in Every Language.',
-
+  base: "/x-lang/",
   theme: defaultTheme({
     logo: './images/logo.png',
 
