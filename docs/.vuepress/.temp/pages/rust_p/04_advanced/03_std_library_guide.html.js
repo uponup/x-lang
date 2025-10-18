@@ -1,0 +1,16 @@
+import comp from "/Users/oker/upon/x-lang/docs/.vuepress/.temp/pages/rust_p/04_advanced/03_std_library_guide.html.vue"
+const data = JSON.parse("{\"path\":\"/rust_p/04_advanced/03_std_library_guide.html\",\"title\":\"Rust标准库学习指南\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"概述\",\"slug\":\"概述\",\"link\":\"#概述\",\"children\":[]},{\"level\":2,\"title\":\"学习策略\",\"slug\":\"学习策略\",\"link\":\"#学习策略\",\"children\":[{\"level\":3,\"title\":\"1. 按模块分类学习\",\"slug\":\"_1-按模块分类学习\",\"link\":\"#_1-按模块分类学习\",\"children\":[]},{\"level\":3,\"title\":\"2. 按功能分类学习\",\"slug\":\"_2-按功能分类学习\",\"link\":\"#_2-按功能分类学习\",\"children\":[]}]},{\"level\":2,\"title\":\"3. 实用学习技巧\",\"slug\":\"_3-实用学习技巧\",\"link\":\"#_3-实用学习技巧\",\"children\":[{\"level\":3,\"title\":\"技巧1：使用文档和示例\",\"slug\":\"技巧1-使用文档和示例\",\"link\":\"#技巧1-使用文档和示例\",\"children\":[]},{\"level\":3,\"title\":\"技巧2：创建自己的工具函数\",\"slug\":\"技巧2-创建自己的工具函数\",\"link\":\"#技巧2-创建自己的工具函数\",\"children\":[]},{\"level\":3,\"title\":\"技巧3：练习项目驱动学习\",\"slug\":\"技巧3-练习项目驱动学习\",\"link\":\"#技巧3-练习项目驱动学习\",\"children\":[]}]},{\"level\":2,\"title\":\"4. 常用模式总结\",\"slug\":\"_4-常用模式总结\",\"link\":\"#_4-常用模式总结\",\"children\":[{\"level\":3,\"title\":\"模式1：链式调用\",\"slug\":\"模式1-链式调用\",\"link\":\"#模式1-链式调用\",\"children\":[]},{\"level\":3,\"title\":\"模式2：错误传播\",\"slug\":\"模式2-错误传播\",\"link\":\"#模式2-错误传播\",\"children\":[]},{\"level\":3,\"title\":\"模式3：Option链式操作\",\"slug\":\"模式3-option链式操作\",\"link\":\"#模式3-option链式操作\",\"children\":[]},{\"level\":3,\"title\":\"模式4：集合操作\",\"slug\":\"模式4-集合操作\",\"link\":\"#模式4-集合操作\",\"children\":[]}]},{\"level\":2,\"title\":\"5. 学习资源推荐\",\"slug\":\"_5-学习资源推荐\",\"link\":\"#_5-学习资源推荐\",\"children\":[{\"level\":3,\"title\":\"在线资源\",\"slug\":\"在线资源\",\"link\":\"#在线资源\",\"children\":[]},{\"level\":3,\"title\":\"实践建议\",\"slug\":\"实践建议\",\"link\":\"#实践建议\",\"children\":[]}]},{\"level\":2,\"title\":\"6. 学习计划\",\"slug\":\"_6-学习计划\",\"link\":\"#_6-学习计划\",\"children\":[{\"level\":3,\"title\":\"第一周：基础模块\",\"slug\":\"第一周-基础模块\",\"link\":\"#第一周-基础模块\",\"children\":[]},{\"level\":3,\"title\":\"第二周：文件和时间\",\"slug\":\"第二周-文件和时间\",\"link\":\"#第二周-文件和时间\",\"children\":[]},{\"level\":3,\"title\":\"第三周：并发和网络\",\"slug\":\"第三周-并发和网络\",\"link\":\"#第三周-并发和网络\",\"children\":[]},{\"level\":3,\"title\":\"第四周：高级特性\",\"slug\":\"第四周-高级特性\",\"link\":\"#第四周-高级特性\",\"children\":[]}]},{\"level\":2,\"title\":\"7. 练习项目建议\",\"slug\":\"_7-练习项目建议\",\"link\":\"#_7-练习项目建议\",\"children\":[{\"level\":3,\"title\":\"项目1：文件管理器\",\"slug\":\"项目1-文件管理器\",\"link\":\"#项目1-文件管理器\",\"children\":[]},{\"level\":3,\"title\":\"项目2：日志系统\",\"slug\":\"项目2-日志系统\",\"link\":\"#项目2-日志系统\",\"children\":[]},{\"level\":3,\"title\":\"项目3：配置管理器\",\"slug\":\"项目3-配置管理器\",\"link\":\"#项目3-配置管理器\",\"children\":[]},{\"level\":3,\"title\":\"项目4：数据处理器\",\"slug\":\"项目4-数据处理器\",\"link\":\"#项目4-数据处理器\",\"children\":[]}]},{\"level\":2,\"title\":\"总结\",\"slug\":\"总结\",\"link\":\"#总结\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"rust_p/04_advanced/03_std_library_guide.md\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
