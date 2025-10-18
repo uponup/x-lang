@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: 'X-Lang: Code Smarter, in Every Language.',
   base: "/x-lang/",
   theme: defaultTheme({
-    logo: './images/logo.png',
+    logo: './docs/images/logo.png',
 
     navbar: ['/', '/rust_p/']
   }),
