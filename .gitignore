@@ -3,8 +3,8 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
-yarn.lock
+# package-lock.json  # ❌ 不应该忽略锁文件，CI 需要它
+# yarn.lock          # ❌ 不应该忽略锁文件，CI 需要它
 
 # VuePress
 docs/.vuepress/dist/
