@@ -393,7 +393,7 @@ fn get_config() -> &'static String {
 - ✅ 更灵活（可运行时设置）
 - ✅ 更轻量
 
-### vs Mutex<Option<T>>
+### vs `Mutex<Option<T>>`
 
 ```rust
 // ❌ 繁琐的方式
@@ -447,14 +447,5 @@ static DATA: OnceLock<Vec<i32>> = OnceLock::new();
 | 同步多线程 | `std::sync::OnceLock` |
 | 单线程 | `std::cell::OnceCell` |
 
----
-
-## 十、参考资源
-
-- [Rust Book - OnceLock](https://doc.rust-lang.org/std/sync/struct.OnceLock.html)
-- [Tokio OnceCell](https://docs.rs/tokio/latest/tokio/sync/struct.OnceCell.html)
-- [once_cell crate](https://docs.rs/once_cell/) (历史参考)
-
----
 
 **关键教训**：在 Tokio 异步环境中，**始终使用 `tokio::sync::OnceCell`**，而不是 `std::sync::OnceLock`。这不仅是 API 选择，而是性能和正确性的关键！🚀✨
