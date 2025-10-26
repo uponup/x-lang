@@ -29,6 +29,33 @@
 14. [文件处理工具](./05_projects/02_file_processor.md)
 15. [简单Web服务器](./05_projects/03_web_server.md)
 
+### 五：进阶主题
+16. [练习题集](./exercises/README.md)
+
+### 六：其他参考资料
+
+> 宏系统
+17. [过程宏详解](./06_others/01_1过程宏.md)
+18. [派生宏详解](./06_others/01_2派生宏.md)
+19. [声明宏详解](./06_others/02_声明宏.md)
+
+> 其他语法
+20. [Attribute语法](./06_others/Attribute语法.md)
+21. [模块系统详解（mod.rs vs Python）](./06_others/模块系统详解.md)
+22. [mod.rs和lib.rs的区别](./06_others/mod_rs和lib_rs的区别.md)
+23. [可见性修饰符对比](./06_others/可见性修饰符对比.md)
+24. [OnceLock 和 OnceCell](./06_others/OnceLock和OnceCell.md)
+
+### 七：UniFFI - 跨语言调用
+25. [UniFFI 导出详解](./07_Uniffi/uniffi::export.md)
+
+### 八：Tokio 异步编程
+26. [Tokio 入门](./08_async/01_tokio_intro.md)
+27. [异步编程基础](./08_async/02_async_basics.md)
+28. [Tokio Runtime](./08_async/03_tokio_runtime.md)
+29. [Tokio vs 其他运行时](./08_async/04_tokio_vs_others.md)
+30. [实战项目](./08_async/05_projects.md)
+
 ## 快速开始
 
 ```bash
